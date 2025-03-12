@@ -39,7 +39,6 @@ define Package/$(PKG_NAME)
 	SECTION:=net
 	CATEGORY:=Network
 	TITLE:=A simple, decentralized mesh VPN with WireGuard support.
-	DEPENDS:=@(x86_64||arm||aarch64||mipsel||mips) +kmod-tun
 	URL:=https://github.com/EasyTier/EasyTier
 endef
 
